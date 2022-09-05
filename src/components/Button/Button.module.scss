@@ -1,0 +1,13 @@
+@use '../colors';
+
+.btn {
+  width: 80%;
+  height: 10%;
+  font-size: 24px;
+  background-color: colors.$light-blue;
+  border: none;
+
+  &:active {
+    background-color: colors.$dark-green;
+  }
+}

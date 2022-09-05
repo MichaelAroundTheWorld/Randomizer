@@ -1,0 +1,26 @@
+@use '../_colors';
+
+.App {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: colors.$dark-green;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 54%;
+  height: 44%;
+  background-color: colors.$light-yellow;
+  align-items: center;
+}
