@@ -1,31 +1,16 @@
-.App {
-  display: flex;
-  height: 100vh;
+.result {
   width: 100%;
-  background-color: #d6cbd3;
-  justify-content: center;
-}
-
-.main {
   display: flex;
-  flex-direction: column;
-  width: 50%;
-  background-color: aqua;
-  align-items: center;
   justify-content: center;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 54%;
-  height: 44%;
-  background-color: #004cff;
-  align-items: center;
+  height: 20%;
+  padding-top: 10%;
+  font-size: 2rem;
 }
 
 .values {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  height: 40%;
+  padding-top: 5%;
 }
