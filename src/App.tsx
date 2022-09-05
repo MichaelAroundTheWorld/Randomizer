@@ -1,10 +1,7 @@
-import React from 'react';
-import './App.css';
+import { Main } from './components/pages/Main/Main';
 
 function App() {
-  return (
-   <></>
-  );
+  return <Main />;
 }
 
 export default App;
